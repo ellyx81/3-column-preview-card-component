@@ -1,0 +1,17 @@
+install sass
+https://www.youtube.com/watch?v=Egyn7rwPazk
+>npm
+>live sass extension
+>create empty sass file and css file
+>activate extension in "view"
+>watch sass button
+
+install stylelint
+>npm init ata idk
+https://www.youtube.com/watch?v=EBlXDDzE_8Y&list=PLLah4xHYIASBG7GCKZa12md4exHNf2kQY&index=8
+>npm
+
+install prettier 
+>npm init (create package.json file)
+>sundan tong nasa docs
+https://prettier.io/docs/en/install.html
