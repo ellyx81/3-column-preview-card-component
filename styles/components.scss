@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+}
+
+.container__box {
+    height: 200px;
+    padding: 20px;
+    flex: 30%;
+}
+
+
+@media (max-width: 700px) {
+    .container {
+      flex-direction: column; /* stack the boxes vertically */
+    }
+  }
+
