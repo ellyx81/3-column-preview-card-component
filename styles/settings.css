@@ -1,12 +1,8 @@
 @font-face {
   font-family: "Lexend Deca";
-  font-weight: 400;
-  src: url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap")
-    format("woff2");
+  src: url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap") format("woff2");
 }
 @font-face {
-  font-family: "Lexend Deca";
-  font-weight: 400;
-  src: url("fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap")
-    format("woff2");
-} /*# sourceMappingURL=settings.css.map */
+  font-family: "Big Shoulders Display";
+  src: url("fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap") format("woff2");
+}/*# sourceMappingURL=settings.css.map */
