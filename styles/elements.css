@@ -1,10 +1,10 @@
 @font-face {
   font-family: "Lexend Deca";
-  src: url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap") format("woff2");
+  src: url("./fonts/lexenddeca-variablefont_wght-webfont.woff") format("woff"), url("./fonts/lexenddeca-variablefont_wght-webfont.woff2") format("woff2");
 }
 @font-face {
   font-family: "Big Shoulders Display";
-  src: url("fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap") format("woff2");
+  src: url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap") format("truetype");
 }
 body {
   background-color: hsla(0, 0%, 100%, 0.75);
