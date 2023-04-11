@@ -11,5 +11,9 @@ body {
 }
 
 h1 {
-  font-family: "Big Shoulders Display";
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1rem;
 }/*# sourceMappingURL=elements.css.map */
