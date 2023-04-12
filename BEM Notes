@@ -3,16 +3,17 @@ Block or element?
 pag reusable - block
 pag di reusable/nakadepend lang sa ibang component - element
 
+https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6
 header
-  header__logo
-  header__navigation
-    header__button
-  header__icon
+  logo
+  header__nav
+    header__nav-items
+  user
   
-image
-  image__main-image
-  image__small-image--selected
-  image__small-image--unselected
+container
+  img
+  img-small--selected
+  img-small--unselected
 
 details
   details__subtitle
@@ -24,4 +25,4 @@ details
   details__add
   details__amount
   details__subtract
-  details__button--add
+  button
