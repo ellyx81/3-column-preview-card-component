@@ -1,1 +1,27 @@
+Block or element?
 
+pag reusable - block
+pag di reusable/nakadepend lang sa ibang component - element
+
+header
+  header__logo
+  header__navigation
+    header__button
+  header__icon
+  
+image
+  image__main-image
+  image__small-image--selected
+  image__small-image--unselected
+
+details
+  details__subtitle
+  details__title
+  details__description
+  details__price
+  details__discount
+  details__original-price
+  details__add
+  details__amount
+  details__subtract
+  details__button--add
