@@ -99,3 +99,24 @@ body
     footer__copyright
     footer__icon
     footer__email
+
+
+tanong:
+
+based po sa documentation, may dalawang types ng modifier, yung boolean at key value.
+parang gantoo po yung itsura ng key value
+button_size_m
+may modifier name(size) at modifier value (m)
+
+pag naman boolean, vlue lang sya example
+button_disabled
+
+
+acc sa coding standard, kailangan ay -- istead na _
+
+wala po nakalagay what if key value po yung type ng mmodifier,
+
+magiging ganto po ba sya?
+example:
+button--size--m
+
