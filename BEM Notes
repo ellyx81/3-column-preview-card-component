@@ -1,3 +1,8 @@
+BLOCK - Can be reused. describes its purpose. (what is it? menu or button)
+ELEMENT - dependent on the block. describes its purpose (what is this? item, text)
+MODIFIER - defines the appearance, state, or behavior of a block or element.
+
+
 Block or element?
 
 pag reusable - block
@@ -20,12 +25,13 @@ container
   slider
     icon
   container__img
-  slider
-    icon
-  container__img-small--selected
-  container__img-small--unselected
-  container__img-small--unselected
-  container__img-small--unselected
+    container__img--large
+    slider
+      icon
+    container__img--small--selected
+    container__img--small--unselected
+    container__img--small--unselected
+    container__img--small--unselected
 
 details
   details__subtitle
@@ -52,7 +58,7 @@ header
 body
   title
   body__paragraph
-  body__container
+  body__img
     body__img--selected
     body__img--unselected
   
