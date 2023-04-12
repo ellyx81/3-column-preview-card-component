@@ -22,3 +22,48 @@ https://www.fontsquirrel.com/
 https://www.youtube.com/watch?v=zK-yy6C2Nck&t=621s
 
 gagawin tom: ayusin fonts
+
+
+SASS Notes
+
+MAP
+ex: 
+$font-weights: (
+  "regular": 400,
+  "medium": 500,
+  "bold": 700
+);
+
+body {
+  font-weight: map-get($font-weights, bold);
+  }
+  
+mag aapply sa css yung value na nakalagay sa sass
+
+magiging font-weight: 700 sya
+
+
+NESTING
+example
+.main {
+  width: 80%;
+  margin: 0 auto;
+    
+    p {
+      font-weight: map-get($font-weights, bold);
+    }
+}
+magiging ganto sa css
+.main p {
+  font-weight: 700;
+}
+
+
+AMPERSAND
+.parent {
+  .child {}
+}
+then it can be 
+.parent {
+  & .child {}
+}
