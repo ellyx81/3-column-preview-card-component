@@ -72,3 +72,31 @@ INTERPOLATION
 to be continued..
 https://www.youtube.com/watch?v=_a5j7KoflTs&list=PLLah4xHYIASBG7GCKZa12md4exHNf2kQY&index=12
 https://sass-lang.com/documentation/interpolation#:~:text=Interpolation%20can%20be%20used%20almost,Property%20names%20in%20declarations
+
+PARTIALS
+-A Sass file lead by underscore
+-not generate a CSS file.
+-compiler ignore those file
+example: 
+_resets.scss
+main.scss
+  @import './resets';  
+-they did not include the _
+
+FUNCTION
+-works like javascript
+
+MIXINS
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  @include flexCenter;
+}
+
+PASS AN ARGUMENT TO MIXIN
+
+
