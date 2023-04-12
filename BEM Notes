@@ -7,22 +7,35 @@ https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6
 header
   logo
   header__nav
-    header__nav-items
+    header__nav-item
+    header__nav-item
+    header__nav-item
+    header__nav-item
+  icon
   user
   
 container
-  img
-  img-small--selected
-  img-small--unselected
+  icon
+  slider
+    icon
+  container__img
+  slider
+    icon
+  container__img-small--selected
+  container__img-small--unselected
+  container__img-small--unselected
+  container__img-small--unselected
 
 details
   details__subtitle
   details__title
   details__description
-  details__price
-  details__discount
-  details__original-price
-  details__add
-  details__amount
-  details__subtract
-  button
+  price
+    price__current
+    price__discount
+    price__original
+    counter
+      counter__btn--subtract
+      counter__amount
+      counter__btn--add
+    btn
