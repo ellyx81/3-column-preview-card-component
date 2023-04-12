@@ -3,6 +3,7 @@ Block or element?
 pag reusable - block
 pag di reusable/nakadepend lang sa ibang component - element
 
+NAMING PRACTICE
 https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6
 header
   logo
@@ -39,3 +40,56 @@ details
       counter__amount
       counter__btn--add
     btn
+
+
+https://www.mariebocquet.com/
+index.html
+header
+  logo
+  header__nav
+  header__nav
+
+body
+  title
+  body__paragraph
+  body__container
+    body__img--selected
+    body__img--unselected
+  
+footer
+  footer__copyright
+  footer__icon
+  footer__email
+
+header
+  logo
+  header__nav
+  header__nav
+  
+body
+  body__img-large
+  sidebar
+    sidebar__container
+    sidebar__icon
+    icon
+    icon
+    sidebar__title
+    sidebar__link
+    sidebar__link
+    sidebar__link
+    sidebar__link
+    
+    sidebar__container
+    sidebar__icon
+    icon
+    sidebar__title
+    sidebar__link
+  
+  main
+    title
+    main__description
+    
+  footer
+    footer__copyright
+    footer__icon
+    footer__email
