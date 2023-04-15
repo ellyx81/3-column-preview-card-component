@@ -1,15 +1,17 @@
-@import 'settings';
+@use 'settings';
+@use 'generic';
 
 body {
-    background-color: $transparent-white;
+    background-color: settings.$transparent-white;
 }
+
 h1 {
+    font-family: settings.$heading-font;
     font-size: 2rem;
 }
+ 
 p {
+    font-family: settings.$subheading-font;
     font-size: 1rem;
 }
-h1,
-p {
-    font-family: 'Lexend Deca', sans-serif;
-}
+

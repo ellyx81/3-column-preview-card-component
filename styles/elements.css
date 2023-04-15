@@ -1,24 +1,29 @@
 @font-face {
   font-family: "Lexend Deca";
-  src: url("./fonts/lexenddeca-variablefont_wght-webfont.woff") format("woff"), url("./fonts/lexenddeca-variablefont_wght-webfont.woff2") format("woff2");
+  src: url("../fonts/lexenddeca-variablefont_wght-webfont.woff") format("woff"), url("../fonts/lexenddeca-variablefont_wght-webfont.woff2") format("woff2");
 }
 @font-face {
   font-family: "Big Shoulders Display";
-  src: url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap") format("truetype");
+  src: url("../fonts/bigshouldersdisplay-variablefont_wght-webfont.woff") format("woff"), url("../fonts/bigshouldersdisplay-variablefont_wght-webfont.woff2") format("woff2");
 }
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   background-color: hsla(0, 0%, 100%, 0.75);
 }
 
 h1 {
+  font-family: "Big Shoulders Display";
   font-size: 2rem;
 }
 
 p {
+  font-family: "Lexend Deca";
   font-size: 1rem;
-}
-
-h1,
-p {
-  font-family: "Lexend Deca", sans-serif;
 }/*# sourceMappingURL=elements.css.map */

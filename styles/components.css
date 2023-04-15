@@ -1,10 +1,26 @@
+@font-face {
+  font-family: "Lexend Deca";
+  src: url("../fonts/lexenddeca-variablefont_wght-webfont.woff") format("woff"), url("../fonts/lexenddeca-variablefont_wght-webfont.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Big Shoulders Display";
+  src: url("../fonts/bigshouldersdisplay-variablefont_wght-webfont.woff") format("woff"), url("../fonts/bigshouldersdisplay-variablefont_wght-webfont.woff2") format("woff2");
+}
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 .container {
   display: flex;
   flex-direction: row;
 }
 
 .container__box {
-  height: 200px;
+  height: 100px;
   padding: 20px;
   flex: 30%;
   border: 1px solid black;
