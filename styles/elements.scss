@@ -2,18 +2,18 @@
 @use 'generic';
 
 body {
-    background-color: settings.$transparent-white;
-    color: settings.$very-light-gray;
+    background-color: map-get(settings.$color, transparent-white);
+    color: map-get(settings.$color, very-light-gray);
 }
 
 h1 {
-    font-family: settings.$heading-font;
+    font-family: map-get(settings.$font, heading-font);
     font-size: 3rem;
 }
  
 p {
-    color: settings.$transparent-white;
-    font-family: settings.$subheading-font;
+    color: map-get(settings.$color, transparent-white);
+    font-family: map-get(settings.$font, subheading-font);
     font-size: 1rem;
     line-height: 2;
 }

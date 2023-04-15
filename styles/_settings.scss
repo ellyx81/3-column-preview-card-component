@@ -1,10 +1,16 @@
-$bright-orange: hsl(31, 77%, 52%);
-$dark-cyan: hsl(184, 100%, 22%);
-$very-dark-cyan: hsl(179, 100%, 13%);
-$transparent-white: hsla(0, 0%, 100%, 0.75); //paragraphs
-$very-light-gray: hsl(0, 0%, 95%); //background, headings, buttons
-$heading-font: 'Big Shoulders Display';
-$subheading-font: 'Lexend Deca';
+$color: (
+  "bright-orange": hsl(31, 77%, 52%),
+  "dark-cyan": hsl(184, 100%, 22%),
+  "very-dark-cyan": hsl(179, 100%, 13%),
+  "transparent-white": hsla(0, 0%, 100%, 0.75), //paragraphs
+  "very-light-gray": hsl(0, 0%, 95%) //background, headings, buttons
+);
+
+$font: (
+  "heading-font": 'Big Shoulders Display',
+  "subheading-font": 'Lexend Deca'
+);
+
 
 @font-face {
   font-family: 'Lexend Deca';

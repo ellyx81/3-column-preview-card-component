@@ -15,8 +15,8 @@
 
 @mixin theme($dark-theme: true) {
     @if $dark-theme {
-        background: darken(settings.$transparent-white, 100%);
-        color: darken(settings.$very-light-gray, 10%);
+        background: darken(map-get(settings.$color, transparent-white), 100%);
+        color: darken(map-get(settings.$color, very-light-gray), 10%);
     }
 }
 

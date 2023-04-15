@@ -1,17 +1,16 @@
 @use 'settings';
-@use 'generic';
 @use 'mixins';
 
 .container__box--orange {
-    background-color: settings.$bright-orange;
+    background-color: map-get(settings.$color, bright-orange);
 }
 
 .container__box--cyan {
-    background-color: settings.$dark-cyan;
+    background-color: map-get(settings.$color, dark-cyan);
 }
 
 .container__box--dark-cyan {
-    background-color: settings.$very-dark-cyan;
+    background-color: map-get(settings.$color, very-dark-cyan);
 }
 
 .dark {
