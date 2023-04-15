@@ -85,6 +85,13 @@ main.scss
 
 FUNCTION
 -works like javascript
+@function weight($weight-name) {
+  @return map-get($font-weights, $weight-name);
+}
+
+.paragraph {
+  font-weight: weight(bold);
+}
 
 MIXINS
 @mixin flexCenter {
@@ -99,4 +106,34 @@ MIXINS
 
 PASS AN ARGUMENT TO MIXIN
 
+@mixin flexCenter($direction) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: $direction
+}
 
+.main {
+  @include flexCenter(column);
+}
+
+
+EXAMPLE 2
+
+@mixin theme($light-theme: true) {
+  @if $light-theme {
+    background: lighten($primary-color, 100%);
+    color: darken($text-color, 100%);
+  }
+}
+
+.light {
+  @include theme($light-theme: true);
+}
+
+
+EXAMPLE 3
+
+@mixin mobile {
+  
+}
