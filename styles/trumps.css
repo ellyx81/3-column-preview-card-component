@@ -14,19 +14,19 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  background-color: hsla(0, 0%, 100%, 0.75);
-  color: hsl(0, 0%, 95%);
+.container__box--orange {
+  background-color: hsl(31, 77%, 52%);
 }
 
-h1 {
-  font-family: "Big Shoulders Display";
-  font-size: 3rem;
+.container__box--cyan {
+  background-color: hsl(184, 100%, 22%);
 }
 
-p {
-  color: hsla(0, 0%, 100%, 0.75);
-  font-family: "Lexend Deca";
-  font-size: 1rem;
-  line-height: 2;
-}/*# sourceMappingURL=elements.css.map */
+.container__box--dark-cyan {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.dark {
+  background: rgba(0, 0, 0, 0.75);
+  color: #d9d9d9;
+}/*# sourceMappingURL=trumps.css.map */

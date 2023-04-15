@@ -1,0 +1,22 @@
+@use 'settings';
+
+
+@mixin desktopSizeContainer {
+    margin: auto;
+    max-width: 1000px;
+    height: 500px;
+    margin-top: 130px;
+}
+
+@mixin flex($direction) {
+    display: flex;
+    flex-direction: $direction;
+}
+
+@mixin theme($dark-theme: true) {
+    @if $dark-theme {
+        background: darken(settings.$transparent-white, 100%);
+        color: darken(settings.$very-light-gray, 10%);
+    }
+}
+

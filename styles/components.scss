@@ -1,21 +1,20 @@
-@use 'settings';
-@use 'generic';
+@use 'mixins';
 
 .container {
-    display: flex;
-    flex-direction: row;
+    @include mixins.desktopSizeContainer;
+    @include mixins.flex(row);
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .container__box {
-    height: 100px;
-    padding: 20px;
+    padding: 50px;
     flex: 30%;
-    border: 1px solid black;
 }
 
 @media (max-width: 700px) {
     .container {
-      flex-direction: column; /* stack the boxes vertically */
+      @include mixins.flex(row);
     }
   }
 

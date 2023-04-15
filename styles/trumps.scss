@@ -1,0 +1,19 @@
+@use 'settings';
+@use 'generic';
+@use 'mixins';
+
+.container__box--orange {
+    background-color: settings.$bright-orange;
+}
+
+.container__box--cyan {
+    background-color: settings.$dark-cyan;
+}
+
+.container__box--dark-cyan {
+    background-color: settings.$very-dark-cyan;
+}
+
+.dark {
+    @include mixins.theme(true);
+}
