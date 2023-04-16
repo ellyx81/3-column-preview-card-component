@@ -24,8 +24,14 @@
   border: none;
 }
 
-@media (width <= 700px) {
+@media (width <= 767px) {
   .container {
     @include mixins.flex(column);
+
+    margin: 70px 15px;
+
+    .container__button {
+      margin-top: 25px;
+    }
   }
 }

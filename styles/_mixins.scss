@@ -1,5 +1,11 @@
 @use "settings";
 
+@mixin box-shadow($border, $color) {
+  box-shadow:inset 0 0 0 $border $color;
+  box-shadow:inset 0 0 0 $border $color;
+  box-shadow:inset 0 0 0 $border $color;
+}
+
 @mixin desktopSizeContainer {
   margin: auto;
   max-width: 1000px;

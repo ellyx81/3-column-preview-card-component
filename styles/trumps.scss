@@ -6,6 +6,13 @@
 
   .container__button {
     color: map-get(settings.$color, bright-orange);
+
+    &:hover {
+     @include mixins.box-shadow(2px, map-get(settings.$color, transparent-white));
+
+     color: map-get(settings.$color, transparent-white); 
+     background-color: map-get(settings.$color, bright-orange);
+    }
   }
 }
 
@@ -14,6 +21,13 @@
 
   .container__button {
     color: map-get(settings.$color, dark-cyan);
+
+    &:hover {
+      @include mixins.box-shadow(2px, map-get(settings.$color, transparent-white));
+
+      color: map-get(settings.$color, transparent-white); 
+      background-color: map-get(settings.$color, dark-cyan);
+     }
   }
 }
 
@@ -22,6 +36,13 @@
 
   .container__button {
     color: map-get(settings.$color, very-dark-cyan);
+
+    &:hover {
+      @include mixins.box-shadow(2px, map-get(settings.$color, transparent-white));
+
+      color: map-get(settings.$color, transparent-white); 
+      background-color: map-get(settings.$color, very-dark-cyan);
+     }
   }
 }
 
