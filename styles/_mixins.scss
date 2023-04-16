@@ -17,6 +17,23 @@
   flex-direction: $direction;
 }
 
+@mixin box-color($primary-color, $secondary-color){
+.container__box--#{$primary-color} {
+  background-color: map-get(settings.$color, #{$primary-color});
+
+  .container__button {
+    color: map-get(settings.$color, #{$primary-color});
+
+    &:hover {
+     @include box-shadow(2px, map-get(settings.$color, #{$secondary-color}));
+
+     color: map-get(settings.$color, #{$secondary-color}); 
+     background-color: map-get(settings.$color, #{$primary-color});
+    }
+  }
+}
+}
+
 @mixin theme($dark-theme: true) {
   @if $dark-theme {
     background: darken(map-get(settings.$color, transparent-white), 100%);

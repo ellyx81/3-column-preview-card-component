@@ -1,50 +1,10 @@
 @use "settings";
 @use "mixins";
 
-.container__box--orange {
-  background-color: map-get(settings.$color, bright-orange);
 
-  .container__button {
-    color: map-get(settings.$color, bright-orange);
-
-    &:hover {
-     @include mixins.box-shadow(2px, map-get(settings.$color, transparent-white));
-
-     color: map-get(settings.$color, transparent-white); 
-     background-color: map-get(settings.$color, bright-orange);
-    }
-  }
-}
-
-.container__box--cyan {
-  background-color: map-get(settings.$color, dark-cyan);
-
-  .container__button {
-    color: map-get(settings.$color, dark-cyan);
-
-    &:hover {
-      @include mixins.box-shadow(2px, map-get(settings.$color, transparent-white));
-
-      color: map-get(settings.$color, transparent-white); 
-      background-color: map-get(settings.$color, dark-cyan);
-     }
-  }
-}
-
-.container__box--dark-cyan {
-  background-color: map-get(settings.$color, very-dark-cyan);
-
-  .container__button {
-    color: map-get(settings.$color, very-dark-cyan);
-
-    &:hover {
-      @include mixins.box-shadow(2px, map-get(settings.$color, transparent-white));
-
-      color: map-get(settings.$color, transparent-white); 
-      background-color: map-get(settings.$color, very-dark-cyan);
-     }
-  }
-}
+@include mixins.box-color("orange", "transparent-white");
+@include mixins.box-color("cyan", "transparent-white");
+@include mixins.box-color("dark-cyan", "transparent-white");
 
 .dark {
   @include mixins.theme(true);
