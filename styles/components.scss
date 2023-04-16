@@ -4,6 +4,7 @@
 .container {
   @include mixins.desktopSizeContainer;
   @include mixins.flex(row);
+
   border-radius: 10px;
   overflow: hidden;
 }
@@ -23,7 +24,7 @@
   border: none;
 }
 
-@media (max-width: 700px) {
+@media (width <= 700px) {
   .container {
     @include mixins.flex(column);
   }

@@ -3,11 +3,13 @@
   src: url("../fonts/lexenddeca-variablefont_wght-webfont.woff") format("woff"),
     url("../fonts/lexenddeca-variablefont_wght-webfont.woff2") format("woff2");
 }
+
 @font-face {
   font-family: "Big Shoulders Display";
   src: url("../fonts/bigshouldersdisplay-semibold-webfont.woff") format("woff"),
     url("../fonts/bigshouldersdisplay-semibold-webfont.woff2") format("woff2");
 }
+
 .container {
   margin: auto;
   max-width: 1000px;
@@ -33,9 +35,9 @@
   border: none;
 }
 
-@media (max-width: 700px) {
+@media (width <= 700px) {
   .container {
     display: flex;
     flex-direction: column;
   }
-} /*# sourceMappingURL=components.css.map */
+}

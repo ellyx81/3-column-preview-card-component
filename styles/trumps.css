@@ -1,35 +1,38 @@
 @font-face {
   font-family: "Lexend Deca";
-  src: url("../fonts/lexenddeca-variablefont_wght-webfont.woff") format("woff"),
-    url("../fonts/lexenddeca-variablefont_wght-webfont.woff2") format("woff2");
+  src: url("../fonts/lexenddeca-variablefont_wght-webfont.woff") format("woff"), url("../fonts/lexenddeca-variablefont_wght-webfont.woff2") format("woff2");
 }
+
 @font-face {
   font-family: "Big Shoulders Display";
-  src: url("../fonts/bigshouldersdisplay-semibold-webfont.woff") format("woff"),
-    url("../fonts/bigshouldersdisplay-semibold-webfont.woff2") format("woff2");
+  src: url("../fonts/bigshouldersdisplay-semibold-webfont.woff") format("woff"), url("../fonts/bigshouldersdisplay-semibold-webfont.woff2") format("woff2");
 }
+
 .container__box--orange {
-  background-color: hsl(31, 77%, 52%);
+  background-color: hsl(31deg 77% 52%);
 }
+
 .container__box--orange .container__button {
-  color: hsl(31, 77%, 52%);
+  color: hsl(31deg 77% 52%);
 }
 
 .container__box--cyan {
-  background-color: hsl(184, 100%, 22%);
+  background-color: hsl(184deg 100% 22%);
 }
+
 .container__box--cyan .container__button {
-  color: hsl(184, 100%, 22%);
+  color: hsl(184deg 100% 22%);
 }
 
 .container__box--dark-cyan {
-  background-color: hsl(179, 100%, 13%);
+  background-color: hsl(179deg 100% 13%);
 }
+
 .container__box--dark-cyan .container__button {
-  color: hsl(179, 100%, 13%);
+  color: hsl(179deg 100% 13%);
 }
 
 .dark {
-  background: rgba(0, 0, 0, 0.75);
+  background: rgb(0 0 0 / 75%);
   color: #d9d9d9;
-} /*# sourceMappingURL=trumps.css.map */
+}

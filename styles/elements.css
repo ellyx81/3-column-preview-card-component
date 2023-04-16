@@ -3,24 +3,26 @@
   src: url("../fonts/lexenddeca-variablefont_wght-webfont.woff") format("woff"),
     url("../fonts/lexenddeca-variablefont_wght-webfont.woff2") format("woff2");
 }
+
 @font-face {
   font-family: "Big Shoulders Display";
   src: url("../fonts/bigshouldersdisplay-semibold-webfont.woff") format("woff"),
     url("../fonts/bigshouldersdisplay-semibold-webfont.woff2") format("woff2");
 }
+
 html {
   box-sizing: border-box;
 }
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
 body {
-  background-color: hsla(0, 0%, 100%, 0.75);
-  color: hsl(0, 0%, 95%);
+  background-color: hsl(0deg 0% 100% / 75%);
+  color: hsl(0deg 0% 95%);
 }
 
 h1 {
@@ -29,8 +31,8 @@ h1 {
 }
 
 p {
-  color: hsla(0, 0%, 100%, 0.75);
+  color: hsl(0deg 0% 100% / 75%);
   font-family: "Lexend Deca";
   font-size: 1rem;
   line-height: 2;
-} /*# sourceMappingURL=elements.css.map */
+}

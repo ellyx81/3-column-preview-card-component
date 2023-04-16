@@ -1,10 +1,10 @@
 $color: (
-  "bright-orange": hsl(31, 77%, 52%),
-  "dark-cyan": hsl(184, 100%, 22%),
-  "very-dark-cyan": hsl(179, 100%, 13%),
-  "transparent-white": hsla(0, 0%, 100%, 0.75),
+  "bright-orange": hsl(31deg 77% 52%),
+  "dark-cyan": hsl(184deg 100% 22%),
+  "very-dark-cyan": hsl(179deg 100% 13%),
+  "transparent-white": hsl(0deg 0% 100% / 75%),
   //paragraphs
-  "very-light-gray": hsl(0, 0%, 95%) //background, headings, buttons,
+  "very-light-gray": hsl(0deg 0% 95%) //background, headings, buttons,,
 );
 
 $font: (
