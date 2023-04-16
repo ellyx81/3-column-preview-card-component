@@ -9,13 +9,22 @@
 .container__box--orange {
   background-color: hsl(31, 77%, 52%);
 }
+.container__box--orange .container__button {
+  color: hsl(31, 77%, 52%);
+}
 
 .container__box--cyan {
   background-color: hsl(184, 100%, 22%);
 }
+.container__box--cyan .container__button {
+  color: hsl(184, 100%, 22%);
+}
 
 .container__box--dark-cyan {
   background-color: hsl(179, 100%, 13%);
+}
+.container__box--dark-cyan .container__button {
+  color: hsl(179, 100%, 13%);
 }
 
 .dark {
