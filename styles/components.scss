@@ -1,16 +1,16 @@
-@use 'mixins';
-@use 'settings';
+@use "mixins";
+@use "settings";
 
 .container {
-    @include mixins.desktopSizeContainer;
-    @include mixins.flex(row);
-    border-radius: 10px;
-    overflow: hidden;
+  @include mixins.desktopSizeContainer;
+  @include mixins.flex(row);
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .container__box {
-    padding: 50px;
-    flex: 30%;
+  padding: 50px;
+  flex: 30%;
 }
 
 .container__button {
@@ -18,15 +18,13 @@
   bottom: 10px;
   margin-top: 60px;
   font-family: map-get(settings.$font, subheading-font);
-    padding: 15px 30px;
-    border-radius: 30px;
-    border: none;
+  padding: 15px 30px;
+  border-radius: 30px;
+  border: none;
 }
 
 @media (max-width: 700px) {
-    .container {
-      @include mixins.flex(column);
-    }
+  .container {
+    @include mixins.flex(column);
   }
-
-
+}

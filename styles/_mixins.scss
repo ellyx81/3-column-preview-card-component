@@ -1,21 +1,19 @@
-@use 'settings';
-
+@use "settings";
 
 @mixin desktopSizeContainer {
-    margin: auto;
-    max-width: 1000px;
-    margin-top: 130px;
+  margin: auto;
+  max-width: 1000px;
+  margin-top: 130px;
 }
 
 @mixin flex($direction) {
-    display: flex;
-    flex-direction: $direction;
+  display: flex;
+  flex-direction: $direction;
 }
 
 @mixin theme($dark-theme: true) {
-    @if $dark-theme {
-        background: darken(map-get(settings.$color, transparent-white), 100%);
-        color: darken(map-get(settings.$color, very-light-gray), 10%);
-    }
+  @if $dark-theme {
+    background: darken(map-get(settings.$color, transparent-white), 100%);
+    color: darken(map-get(settings.$color, very-light-gray), 10%);
+  }
 }
-

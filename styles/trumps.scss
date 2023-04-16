@@ -1,27 +1,27 @@
-@use 'settings';
-@use 'mixins';
+@use "settings";
+@use "mixins";
 
 .container__box--orange {
-    background-color: map-get(settings.$color, bright-orange);
-    .container__button {
-        color: map-get(settings.$color, bright-orange);
-    }
+  background-color: map-get(settings.$color, bright-orange);
+  .container__button {
+    color: map-get(settings.$color, bright-orange);
+  }
 }
 
 .container__box--cyan {
-    background-color: map-get(settings.$color, dark-cyan);
-    .container__button {
-        color: map-get(settings.$color, dark-cyan);
-    }
+  background-color: map-get(settings.$color, dark-cyan);
+  .container__button {
+    color: map-get(settings.$color, dark-cyan);
+  }
 }
 
 .container__box--dark-cyan {
-    background-color: map-get(settings.$color, very-dark-cyan);
-    .container__button {
-        color: map-get(settings.$color, very-dark-cyan);
-    }
+  background-color: map-get(settings.$color, very-dark-cyan);
+  .container__button {
+    color: map-get(settings.$color, very-dark-cyan);
+  }
 }
 
 .dark {
-    @include mixins.theme(true);
+  @include mixins.theme(true);
 }

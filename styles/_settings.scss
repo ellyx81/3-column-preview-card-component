@@ -2,30 +2,24 @@ $color: (
   "bright-orange": hsl(31, 77%, 52%),
   "dark-cyan": hsl(184, 100%, 22%),
   "very-dark-cyan": hsl(179, 100%, 13%),
-  "transparent-white": hsla(0, 0%, 100%, 0.75), //paragraphs
-  "very-light-gray": hsl(0, 0%, 95%) //background, headings, buttons
+  "transparent-white": hsla(0, 0%, 100%, 0.75),
+  //paragraphs
+  "very-light-gray": hsl(0, 0%, 95%) //background, headings, buttons,
 );
 
 $font: (
-  "heading-font": 'Big Shoulders Display',
-  "subheading-font": 'Lexend Deca'
+  "heading-font": "Big Shoulders Display",
+  "subheading-font": "Lexend Deca",
 );
 
-
 @font-face {
-  font-family: 'Lexend Deca';
-  src: url('../fonts/lexenddeca-variablefont_wght-webfont.woff')
-    format('woff'),
-    url('../fonts/lexenddeca-variablefont_wght-webfont.woff2')
-    format('woff2');
+  font-family: "Lexend Deca";
+  src: url("../fonts/lexenddeca-variablefont_wght-webfont.woff") format("woff"),
+    url("../fonts/lexenddeca-variablefont_wght-webfont.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: 'Big Shoulders Display';
-  src: url('../fonts/bigshouldersdisplay-semibold-webfont.woff')
-    format('woff'),
-    url('../fonts/bigshouldersdisplay-semibold-webfont.woff2')
-    format('woff2');
+  font-family: "Big Shoulders Display";
+  src: url("../fonts/bigshouldersdisplay-semibold-webfont.woff") format("woff"),
+    url("../fonts/bigshouldersdisplay-semibold-webfont.woff2") format("woff2");
 }
-
-
