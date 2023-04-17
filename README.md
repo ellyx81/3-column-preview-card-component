@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Video URL: [Add live site URL here](https://nimb.ws/qD3Fik)
+- Video URL: [See Video](https://nimb.ws/qD3Fik)
 
 ## My process
 The purpose of creating this page is to enhance my skills in SASS. My approach to achieving this was to begin by obtaining resources from the frontend mentor website and opening the files in VSCode. Subsequently, I installed the required tools such as SASS, prettier, and stylelint to streamline the coding process. Initially, I started by developing the index.html page and subsequently implemented styling using SASS, following the ITCSS architecture and adhering to the BEM class naming convention. In order to ensure that the page is visually appealing and functional, I referenced prototype and design resources and made it responsive. Although the file structure wasn't ideal at first, I was able to optimize it as I learned best practices and improve it until it reached its current state.
