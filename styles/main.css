@@ -2,10 +2,12 @@
   font-family: "Lexend Deca";
   src: url("../fonts/lexenddeca-variablefont_wght-webfont.woff") format("woff"), url("../fonts/lexenddeca-variablefont_wght-webfont.woff2") format("woff2");
 }
+
 @font-face {
   font-family: "Big Shoulders Display";
   src: url("../fonts/bigshouldersdisplay-semibold-webfont.woff") format("woff"), url("../fonts/bigshouldersdisplay-semibold-webfont.woff2") format("woff2");
 }
+
 html {
   box-sizing: border-box;
 }
@@ -17,8 +19,8 @@ html {
 }
 
 body {
-  background-color: hsla(0, 0%, 100%, 0.75);
-  color: hsl(0, 0%, 95%);
+  background-color: hsl(0deg 0% 100% / 75%);
+  color: hsl(0deg 0% 95%);
 }
 
 h1 {
@@ -27,52 +29,55 @@ h1 {
 }
 
 p {
-  color: hsla(0, 0%, 100%, 0.75);
+  color: hsl(0deg 0% 100% / 75%);
   font-family: "Lexend Deca";
   font-size: 1rem;
   line-height: 2;
 }
 
 .container__box--orange {
-  background-color: hsl(31, 77%, 52%);
+  background-color: hsl(31deg 77% 52%);
 }
+
 .container__box--orange .container__button {
-  color: hsl(31, 77%, 52%);
+  color: hsl(31deg 77% 52%);
 }
+
 .container__box--orange .container__button:hover {
-  box-shadow: inset 0 0 0 2px hsla(0, 0%, 100%, 0.75);
-  box-shadow: inset 0 0 0 2px hsla(0, 0%, 100%, 0.75);
-  box-shadow: inset 0 0 0 2px hsla(0, 0%, 100%, 0.75);
-  color: hsla(0, 0%, 100%, 0.75);
-  background-color: hsl(31, 77%, 52%);
+  box-shadow: inset 0 0 0 2px hsl(0deg 0% 100% / 75%);
+  box-shadow: inset 0 0 0 2px hsl(0deg 0% 100% / 75%);
+  color: hsl(0deg 0% 100% / 75%);
+  background-color: hsl(31deg 77% 52%);
 }
 
 .container__box--cyan {
-  background-color: hsl(184, 100%, 22%);
+  background-color: hsl(184deg 100% 22%);
 }
+
 .container__box--cyan .container__button {
-  color: hsl(184, 100%, 22%);
+  color: hsl(184deg 100% 22%);
 }
+
 .container__box--cyan .container__button:hover {
-  box-shadow: inset 0 0 0 2px hsla(0, 0%, 100%, 0.75);
-  box-shadow: inset 0 0 0 2px hsla(0, 0%, 100%, 0.75);
-  box-shadow: inset 0 0 0 2px hsla(0, 0%, 100%, 0.75);
-  color: hsla(0, 0%, 100%, 0.75);
-  background-color: hsl(184, 100%, 22%);
+  box-shadow: inset 0 0 0 2px hsl(0deg 0% 100% / 75%);
+  box-shadow: inset 0 0 0 2px hsl(0deg 0% 100% / 75%);
+  color: hsl(0deg 0% 100% / 75%);
+  background-color: hsl(184deg 100% 22%);
 }
 
 .container__box--dark-cyan {
-  background-color: hsl(179, 100%, 13%);
+  background-color: hsl(179deg 100% 13%);
 }
+
 .container__box--dark-cyan .container__button {
-  color: hsl(179, 100%, 13%);
+  color: hsl(179deg 100% 13%);
 }
+
 .container__box--dark-cyan .container__button:hover {
-  box-shadow: inset 0 0 0 2px hsla(0, 0%, 100%, 0.75);
-  box-shadow: inset 0 0 0 2px hsla(0, 0%, 100%, 0.75);
-  box-shadow: inset 0 0 0 2px hsla(0, 0%, 100%, 0.75);
-  color: hsla(0, 0%, 100%, 0.75);
-  background-color: hsl(179, 100%, 13%);
+  box-shadow: inset 0 0 0 2px hsl(0deg 0% 100% / 75%);
+  box-shadow: inset 0 0 0 2px hsl(0deg 0% 100% / 75%);
+  color: hsl(0deg 0% 100% / 75%);
+  background-color: hsl(179deg 100% 13%);
 }
 
 .container {
@@ -101,7 +106,7 @@ p {
 }
 
 .dark {
-  background: rgba(0, 0, 0, 0.75);
+  background: rgb(0 0 0 / 75%);
   color: #d9d9d9;
 }
 
@@ -111,7 +116,8 @@ p {
     flex-direction: column;
     margin: 70px 15px;
   }
+
   .container .container__button {
     margin-top: 25px;
   }
-}/*# sourceMappingURL=main.css.map */
+}
