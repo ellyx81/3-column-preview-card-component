@@ -1,4 +1,4 @@
-@use "settings";
+@use "variables";
 
 @mixin box-shadow($border, $color) {
   box-shadow:inset 0 0 0 $border $color;
@@ -19,16 +19,16 @@
 
 @mixin box-color($primary-color, $secondary-color){
 .container__box--#{$primary-color} {
-  background-color: map-get(settings.$color, #{$primary-color});
+  background-color: map-get(variables.$color, #{$primary-color});
 
   .container__button {
-    color: map-get(settings.$color, #{$primary-color});
+    color: map-get(variables.$color, #{$primary-color});
 
     &:hover {
-     @include box-shadow(2px, map-get(settings.$color, #{$secondary-color}));
+     @include box-shadow(2px, map-get(variables.$color, #{$secondary-color}));
 
-     color: map-get(settings.$color, #{$secondary-color}); 
-     background-color: map-get(settings.$color, #{$primary-color});
+     color: map-get(variables.$color, #{$secondary-color}); 
+     background-color: map-get(variables.$color, #{$primary-color});
     }
   }
 }
@@ -36,7 +36,7 @@
 
 @mixin theme($dark-theme: true) {
   @if $dark-theme {
-    background: darken(map-get(settings.$color, transparent-white), 100%);
-    color: darken(map-get(settings.$color, very-light-gray), 10%);
+    background: darken(map-get(variables.$color, transparent-white), 100%);
+    color: darken(map-get(variables.$color, very-light-gray), 10%);
   }
 }
